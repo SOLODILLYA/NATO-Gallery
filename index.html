@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATO Small Arms Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NATO Small Arms Gallery</h1>
+        <div class="category-selector">
+            <label for="category">Choose a category:</label>
+            <select id="category" onchange="filterCategory()">
+                <option value="all">All</option>
+                <option value="pistols">Pistols</option>
+                <option value="rifles">Rifles</option>
+                <option value="machine-guns">Machine Guns</option>
+            </select>
+        </div>
+        <div class="gallery" id="gallery">
+            <div class="gallery-item" data-category="pistols">
+                <img src="Images/GLOCK_17_Gen_4_Pistol.jpg" alt="Pistol 1">
+                <p>GLOCK 17</p>
+            </div>
+            <div class="gallery-item" data-category="pistols">
+                <img src="Images/P-83_Wanad_pistol_nobg.png" alt="Pistol 1">
+                <p>P-83 Wanad</p>
+            </div>
+            <div class="gallery-item" data-category="pistols">
+                <img src="Images/WIST-94L_pistol_nobg.png" alt="Pistol 1">
+                <p>WIST-94</p>
+            </div>
+            <div class="gallery-item" data-category="pistols">
+                <img src="Images/Walther_P99RAD_pistol_nobg.png" alt="Pistol 1">
+                <p>P99</p>
+            </div>
+            <div class="gallery-item" data-category="pistols">
+                <img src="Images/PR-15_Ragun_(early_VIS_100)_pistol_nobg (1).png" alt="Pistol 1">
+                <p>FB VIS 100</p>
+            </div>
+            <div class="gallery-item" data-category="rifles">
+                <img src="Images/HK416N.png" alt="Rifle 1">
+                <p>HK416N</p>
+            </div>
+            <div class="gallery-item" data-category="rifles">
+                <img src="Images/SIG-MCX-Rifle.jpeg" alt="Rifle 2">
+                <p>SIG-MCX-Rifle</p>
+            </div>
+            <div class="gallery-item" data-category="rifles">
+                <img src="Images/150px-AKM_automatkarbin_Ryssland_-_7,62x39mm_-_Armémuseum_rightside_noBG.png" alt="Rifle 1">
+                <p>AKM</p>
+            </div>
+            <div class="gallery-item" data-category="rifles">
+                <img src="Images/Mini-Beryl_wz96_PICT0015.JPG" alt="Rifle 1">
+                <p>FB Mini-Beryl</p>
+            </div>
+            <div class="gallery-item" data-category="rifles">
+                <img src="Images/Beryl_wz96C.png" alt="Rifle 1">
+                <p>FB Beryl</p>
+            </div>
+            <div class="gallery-item" data-category="rifles">
+                <img src="Images/Msbskandmsbsb.jpg" alt="Rifle 1">
+                <p>MSBS Grot</p>
+            </div>
+            <div class="gallery-item" data-category="machine-guns">
+                <img src="Images/FN_MINIMI_Standard_Right.jpg" alt="Machine Gun 1">
+                <p>FN MINIMI</p>
+            </div>
+            <div class="gallery-item" data-category="machine-guns">
+                <img src="Images/FN_MAG_white_background.jpg" alt="Machine Gun 1">
+                <p>FN MAG</p>
+            </div>
+            <div class="gallery-item" data-category="machine-guns">
+                <img src="Images/PEO_M2E2-QCB_HMG.jpg" alt="Machine Gun 1">
+                <p>M2HB-QCB</p>
+            </div>
+            <div class="gallery-item" data-category="machine-guns">
+                <img src="Images/PKM_DD-ST-85-01257_(2).png" alt="Machine Gun 1">
+                <p>PK</p>
+            </div>
+            <div class="gallery-item" data-category="machine-guns">
+                <img src="Images/Ukm (1).jpg" alt="Machine Gun 1">
+                <p>UKM-2000</p>
+            </div>
+            <div class="gallery-item" data-category="machine-guns">
+                <img src="Images/M240B_Medium_Machine_Gun_(7414626696).jpg" alt="Machine Gun 1">
+                <p>M240</p>
+            </div>
+            <div class="gallery-item" data-category="machine-guns">
+                <img src="Images/BundeswehrMG3_noBG.png" alt="Machine Gun 1">
+                <p>Rheinmetall MG3</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
